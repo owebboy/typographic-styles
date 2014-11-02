@@ -1,3 +1,3 @@
-# Typographic Styles
+# Typographic Styles' Website
 
-This stylesheet was built to make web typography look amazing.
+This website is built for typographic styles.
