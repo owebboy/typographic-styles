@@ -1,0 +1,21 @@
+{
+  "name": "typographic-styles",
+  "version": "1.0.1",
+  "description": "A stylesheet that was built to make web typography look amazing",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owebboy/typographic-styles.git"
+  },
+  "keywords": [
+    "typographic",
+    "stylus",
+    "css",
+    "styles"
+  ],
+  "author": "Oliver Pope <o@owebboy.com> (https://owebboy.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/owebboy/typographic-styles/issues"
+  },
+  "homepage": "https://github.com/owebboy/typographic-styles"
+}

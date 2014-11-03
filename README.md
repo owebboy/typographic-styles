@@ -6,10 +6,11 @@ This stylesheet was built to make web typography look amazing.
 
 - Stylus
 - .gitignore file
+- on npm
 
 ## How to use
 
-1. Clone `git clone git@github.com:owebboy/typographic-styles.git`
+1. Clone `git clone git@github.com:owebboy/typographic-styles.git` or you can also install it with npm, `npm install typographic-styles`
 2. Start developing
 
 ## License
