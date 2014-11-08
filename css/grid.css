@@ -1,0 +1,97 @@
+/*
+
+	Grid
+	@owebboy
+
+*/
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+.col-1 {
+  width: 15.666666666666702%;
+  display: inline-block;
+  float: left;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  border-top: 1px #666 solid;
+}
+.col-2 {
+  width: 32.3333333333333%;
+  display: inline-block;
+  float: left;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  border-top: 1px #666 solid;
+}
+.col-3 {
+  width: 49%;
+  display: inline-block;
+  float: left;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  border-top: 1px #666 solid;
+}
+.col-4 {
+  width: 65.6666666666667%;
+  display: inline-block;
+  float: left;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  border-top: 1px #666 solid;
+}
+.col-5 {
+  width: 82.3333333333333%;
+  display: inline-block;
+  float: left;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  border-top: 1px #666 solid;
+}
+.col-6 {
+  width: 99%;
+  display: inline-block;
+  float: left;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  border-top: 1px #666 solid;
+}
+@media screen and (max-width: 600px) {
+  .col-1 {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+  .col-2 {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+  .col-3 {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+  .col-4 {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+  .col-5 {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+  .col-6 {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+}

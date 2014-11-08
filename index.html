@@ -8,7 +8,7 @@
 	<title>Typographic Styles</title>
 
 	<link rel="stylesheet" href="css/typographic-styles.css">
-	<link rel="stylesheet" href="css/example.css">
+	<link rel="stylesheet" href="css/grid.css">
 </head>
 
 <body>
@@ -18,8 +18,8 @@
 			<p class="lead">Created by <a href="//twitter.com/owebboy">@owebboy</a>, this stylesheet was built to make text look super duper awesome. Check it out on <a href="//github.com/owebboy/typographic-styles">Github</a>.</p>
 		</header>
 
-		<section id="text">
-			<article id="paragraph" class="example">
+		<section id="text" class="container">
+			<article id="paragraph" class="col-3">
 				<h4>Paragraph Text</h4>
 
 				<div id="paragraphs">
@@ -27,10 +27,11 @@
 					<p><b contenteditable>Bold Text</b></p>
 					<p><i contenteditable>Italic Text</i></p>
 					<p><a href="#">Linked Text</a></p>
+					<p><code>some code here</code></p>
 				</div>
 			</article>
 
-			<article id="heading">
+			<article id="heading" class="col-3">
 				<div class="example">
 					<h4>Heading Text</h4>
 
@@ -44,8 +45,8 @@
 			</article>
 		</section>
 
-		<section id="extra-classes">
-			<article class="example no-top-border more-height">
+		<section id="extra-classes" class="container">
+			<article class="col-3">
 				<h4>Extra Classes</h4>
 
 				<div id="classes">
