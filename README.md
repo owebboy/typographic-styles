@@ -8,10 +8,19 @@ This stylesheet was built to make web typography look amazing.
 - .gitignore file
 - on npm
 
-## How to use
+## Installation
 
-1. Clone `git clone git@github.com:owebboy/typographic-styles.git` or you can also install it with npm, `npm install typographic-styles`
-2. Start developing
+cloning with github:
+
+`git@github.com:owebboy/typographic-styles.git`
+
+installing with npm:
+
+`npm install --save-dev typographic-styles`
+
+installing with bower:
+
+`bower install --save typographic-styles`
 
 ## License
 The MIT License (MIT)
