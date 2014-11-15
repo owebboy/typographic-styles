@@ -2,19 +2,17 @@
 
 	Typographic Styles
 	@owebboy
-
+	
 */
 html {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   color: #666;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
 }
 *,
 *:before,
 *:after {
-  -moz-box-sizing: inherit;
-       box-sizing: inherit;
+  box-sizing: inherit;
 }
 p {
   font-weight: 400;

@@ -1,7 +1,7 @@
 # Created by https://www.gitignore.io
 
-### CodeKit ###
-config.codekit
+### NPM ###
+node_modules
 
 
 ### OSX ###

@@ -1,6 +1,6 @@
 /*
 
-	Grid
+	Simple Grid
 	@owebboy
 
 */
@@ -9,53 +9,50 @@
   margin: auto;
   overflow: hidden;
 }
+.responsive {
+  max-width: 100%;
+}
 .col-1 {
-  width: 15.666666666666702%;
+  width: 16.6666666666667%;
   display: inline-block;
   float: left;
-  margin-left: 0.5%;
-  margin-right: 0.5%;
-  border-top: 1px #666 solid;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 .col-2 {
-  width: 32.3333333333333%;
+  width: 33.3333333333333%;
   display: inline-block;
   float: left;
-  margin-left: 0.5%;
-  margin-right: 0.5%;
-  border-top: 1px #666 solid;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 .col-3 {
-  width: 49%;
+  width: 50%;
   display: inline-block;
   float: left;
-  margin-left: 0.5%;
-  margin-right: 0.5%;
-  border-top: 1px #666 solid;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 .col-4 {
-  width: 65.6666666666667%;
+  width: 66.6666666666667%;
   display: inline-block;
   float: left;
-  margin-left: 0.5%;
-  margin-right: 0.5%;
-  border-top: 1px #666 solid;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 .col-5 {
-  width: 82.3333333333333%;
+  width: 83.3333333333333%;
   display: inline-block;
   float: left;
-  margin-left: 0.5%;
-  margin-right: 0.5%;
-  border-top: 1px #666 solid;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 .col-6 {
-  width: 99%;
+  width: 100%;
   display: inline-block;
   float: left;
-  margin-left: 0.5%;
-  margin-right: 0.5%;
-  border-top: 1px #666 solid;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 @media screen and (max-width: 600px) {
   .col-1 {
