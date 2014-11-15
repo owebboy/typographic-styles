@@ -22,6 +22,11 @@ installing with bower:
 
 `bower install --save typographic-styles`
 
+## Getting started with gulp
+
+1. `npm install`
+2. `gulp`
+
 ## License
 The MIT License (MIT)
 
