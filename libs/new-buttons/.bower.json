@@ -27,7 +27,6 @@
     "commit": "169ca515bbce215792401c3d4c4e3c09d8cd7c31"
   },
   "_source": "git://github.com/owebboy/new-buttons.git",
-  "_target": "~1.0.4",
-  "_originalSource": "new-buttons",
-  "_direct": true
+  "_target": "*",
+  "_originalSource": "new-buttons"
 }
