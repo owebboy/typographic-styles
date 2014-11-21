@@ -1,6 +1,6 @@
 {
   "name": "typographic-styles",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "homepage": "https://github.com/owebboy/typographic-styles",
   "authors": [
     "Oliver Pope <opope@me.com>"
@@ -19,7 +19,6 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests",
-    "stylus"
+    "tests"
   ]
 }
