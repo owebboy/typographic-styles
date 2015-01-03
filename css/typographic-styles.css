@@ -5,19 +5,22 @@
 html {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   color: #666;
-  box-sizing: border-box;
   font-kerning: normal;
+}
+html,
+body {
   margin: 0;
   padding: 0;
 }
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 p {
   font-weight: 400;
-  font-size: 1em;
+  font-size: 1.05em;
+  margin: 0;
 }
 p,
 ol,
@@ -26,6 +29,9 @@ ul {
 }
 ol {
   list-style: decimal-leading-zero;
+}
+li {
+  list-style: square;
 }
 a {
   color: #333;
@@ -44,13 +50,16 @@ hr {
   border: 0;
   border-bottom: 1px solid #c6cbcc;
 }
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: #666;
   font-weight: 700;
 }
 .title {
@@ -58,37 +67,47 @@ h6 {
   font-weight: 900;
   font-size: 2em;
 }
-h1 {
-  font-size: 2em;
-  margin: 0.2em 0;
+h1,
+.h1 {
+  font-size: 2.4em;
+  margin: 0;
 }
-h2 {
+h2,
+.h2 {
   font-size: 1.75em;
-  margin: 0.3em 0;
+  margin: 0;
 }
-h3 {
+h3,
+.h3 {
   font-size: 1.5em;
-  margin: 0.5em 0;
+  margin: 0;
 }
-h4 {
+h4,
+.h4 {
   font-size: 1.25em;
-  margin: 0.6em 0;
+  margin: 0;
 }
-h5 {
+h5,
+.h5 {
   font-size: 1.15em;
-  margin: 0.65em 0;
+  margin: 0;
 }
-h6 {
+h6,
+.h5 {
   font-size: 1.5em;
-  margin: 0.5em 0;
+  margin: 0;
 }
 .wrapper {
-  margin: 3em 5%;
+  padding: 3em 5%;
 }
 @media screen and (max-width: 600px) {
   .wrapper {
-    margin: 0;
+    padding: 0;
   }
+}
+.none {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 .marsala {
   color: #955251;

@@ -23,23 +23,28 @@ white = #FFFFFF
 html 
 	font-family "Helvetica Neue", Arial, Helvetica, sans-serif;
 	color steel
-	box-sizing border-box
 	font-kerning normal
+	
+html, body
 	margin 0
 	padding 0
-	
+		
 *, *:before, *:after
-	box-sizing inherit
+	box-sizing border-box
 	
 p 
 	font-weight 400
-	font-size 1em
+	font-size 1.05em
+	margin 0
 	
 p, ol, ul
 	line-height 1.75em
 
 ol
 	list-style decimal-leading-zero
+	
+li 
+	list-style square
 
 a
 	color oil
@@ -56,11 +61,14 @@ code
 hr
 	border 0
 	border-bottom: 1px solid iron
+	
+.uppercase
+	text-transform uppercase
+	letter-spacing .25em
 		
 // headings
 
 h1, h2, h3, h4, h5, h6
-	color steel
 	font-weight 700
 	
 .title 
@@ -68,31 +76,35 @@ h1, h2, h3, h4, h5, h6
 	font-weight 900
 	font-size 2em
 	
-h1
-	font-size 2em
-	margin .2em 0
-h2
+h1, .h1
+	font-size 2.4em
+	margin 0
+h2, .h2
 	font-size 1.75em
-	margin .3em 0
-h3
+	margin 0
+h3, .h3
 	font-size 1.5em
-	margin .5em 0
-h4
+	margin 0
+h4, .h4
 	font-size 1.25em
-	margin .6em 0
-h5
+	margin 0
+h5, .h5
 	font-size 1.15em
-	margin .65em 0
-h6
+	margin 0
+h6, .h5
 	font-size 1.5em
-	margin .5em 0
+	margin 0
 
 // dimensions
 
 .wrapper
-	margin 3em 5%
+	padding 3em 5%
 	@media screen and (max-width: 600px)
-		margin 0
+		padding 0
+		
+.none
+	margin 0 !important
+	padding 0 !important
 		
 // colors
 
