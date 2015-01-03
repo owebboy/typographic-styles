@@ -1,9 +1,3 @@
-# Created by https://www.gitignore.io
-
-### CodeKit ###
-config.codekit
-
-
 ### OSX ###
 .DS_Store
 .AppleDouble

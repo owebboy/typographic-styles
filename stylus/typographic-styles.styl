@@ -1,16 +1,32 @@
 /*
+ * Typographic Styles
+ * @owebboy
+ */
 
-	Typographic Styles
-	@owebboy
-	
-*/
+// colors
+marsala = #955251
+scuba-blue = #00B2CA
+classic-blue = #1D4E89
+tangerine = #F79256
+lucite-green = #7DCFB6
+custard = #EAD98B
+
+steel = #666666
+iron = #C6CBCC
+oil = #333333
+black = #000000
+
+white = #FFFFFF
 
 // text
 
 html 
 	font-family "Helvetica Neue", Arial, Helvetica, sans-serif;
-	color #666
+	color steel
 	box-sizing border-box
+	font-kerning normal
+	margin 0
+	padding 0
 	
 *, *:before, *:after
 	box-sizing inherit
@@ -26,25 +42,28 @@ ol
 	list-style decimal-leading-zero
 
 a
-	color #333
+	color oil
 	text-decoration none
-	border-bottom 1px solid #ccc
+	border-bottom 1px solid iron
 	&:hover 
-		border-color #666
-		color #000
+		border-color steel
+		color black
 		
 code
 	font-size .9em
 	font-family Menlo, Consolas, Monaco, "Lucida Console", monospace
+
+hr
+	border 0
+	border-bottom: 1px solid iron
 		
 // headings
 
 h1, h2, h3, h4, h5, h6
-	color #666
+	color steel
 	font-weight 700
 	
 .title 
-	text-transform uppercase
 	margin 0
 	font-weight 900
 	font-size 2em
@@ -68,9 +87,66 @@ h6
 	font-size 1.5em
 	margin .5em 0
 
-// wrapper 
+// dimensions
 
 .wrapper
 	margin 3em 5%
 	@media screen and (max-width: 600px)
 		margin 0
+		
+// colors
+
+.marsala
+	color marsala
+.bg-marsala
+	background marsala
+	
+.scuba-blue
+	color scuba-blue
+.bg-scuba-blue
+	background scuba-blue
+	
+.classic-blue
+	color classic-blue
+.bg-classic-blue
+	background classic-blue
+	
+.tangerine
+	color tangerine
+.bg-tangerine
+	background tangerine
+	
+.lucite-green
+	color lucite-green
+.bg-lucite-green
+	background lucite-green
+	
+.custard
+	color custard
+.bg-custard
+	background custard
+	
+.steel
+	color steel
+.bg-steel
+	background steel
+	
+.iron
+	color iron
+.bg-iron
+	background iron
+	
+.oil
+	color oil
+.bg-oil
+	background oil
+	
+.black
+	color black
+.bg-black
+	background black
+	
+.white
+	color white
+.bg-white
+	background white
