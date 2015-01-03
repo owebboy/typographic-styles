@@ -6,23 +6,22 @@
 	<meta name="description" content="Simple styles for typography">
 	<meta name="viewport" content="width=device-width">
 	<title>Typographic Styles</title>
-
-	<link rel="stylesheet" href="libs/new-buttons/css/new-buttons.min.css">
-	<link rel="stylesheet" href="libs/o-simple-grid/css/grid.min.css">
-	<link rel="stylesheet" href="libs/typographic-styles/css/typographic-styles.min.css">
+	
+	<link rel="stylesheet" href="css/typographic-styles.min.css">
+	<link rel="stylesheet" href="css/lemonade.min.css">
 </head>
 
 <body>
+	<header class="bg-marsala">
+		<h1 class="title">Typographic Styles</h1>
+		<p class="lead">Created by <a href="//twitter.com/owebboy">@owebboy</a>, this stylesheet was built to make text look super duper awesome. Check it out on <a href="//github.com/owebboy/typographic-styles">Github</a>.</p>
+	</header>
+	
 	<div class="wrapper">
-		<header>
-			<h1 class="title">Typographic Styles</h1>
-			<p class="lead">Created by <a href="//twitter.com/owebboy">@owebboy</a>, this stylesheet was built to make text look super duper awesome. Check it out on <a href="//github.com/owebboy/typographic-styles">Github</a>.</p>
-		</header>
-
 		<section id="text" class="container">
 			<article id="paragraph" class="col-3">
 				<h4>Paragraph Text</h4>
-
+		
 				<div id="paragraphs">
 					<p contenteditable>Just A Paragraph</p>
 					<p><b contenteditable>Bold Text</b></p>
@@ -31,11 +30,11 @@
 					<p><code>some code here</code></p>
 				</div>
 			</article>
-
+		
 			<article id="heading" class="col-3">
 				<div class="example">
 					<h4>Heading Text</h4>
-
+		
 					<div id="headings">
 						<h1 contenteditable>Heading 1</h1>
 						<h2 contenteditable>Heading 2</h2>
@@ -45,17 +44,17 @@
 				</div>
 			</article>
 		</section>
-
+		
 		<section id="extra-classes" class="container">
 			<article class="col-3">
 				<h4>Extra Classes</h4>
-
+		
 				<div id="classes">
 					<section class="wrapper">
 						<h5>.wrapper</h5>
 						<p>Adds an extra margin to the selected element. Goes away on mobile.</p>
 					</section>
-
+		
 					<p class="title">Title Text</p>
 					<p>This is for paragraph tags that are used for emphasis</p>
 				</div>
