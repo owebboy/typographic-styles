@@ -10,23 +10,16 @@ var gulp 				= require('gulp'),
 		stylus 			= require('gulp-stylus'),
 		cssmin			= require('gulp-cssmin'),
 		rename			= require('gulp-rename'),
-		watch				= require('gulp-watch'),
 		webserver 	= require('gulp-webserver');
 
 /* destinations -------------------------------------------- */
-var stylusFile 	= './stylus/typographic-styles.styl',
-		cssFile			= './css/typographic-styles.css';
+var stylusFile 	= './stylus/typographic-styles.styl';
 
-/* stylus to css ------------------------------------------- */
+/* stylus to css to minifcation ---------------------------- */
 gulp.task('stylus', function() {
 	gulp.src(stylusFile)
 		.pipe(stylus())
-		.pipe(gulp.dest('./css'));
-});
-
-/* compress css -------------------------------------------- */
-gulp.task('compress', function() {
-	gulp.src(cssFile)
+		.pipe(gulp.dest('./css'))
 		.pipe(cssmin())
 		.pipe(rename({suffix: '.min'}))
 		.pipe(gulp.dest('./css'));
@@ -44,10 +37,6 @@ gulp.task('webserver', function() {
 });
 
 /* default task -------------------------------------------- */
-gulp.task('default', function() {
-	gulp.start('webserver');
-	watch(stylusFile, function(files, cb) {
-		gulp.start('stylus', cb);
-		gulp.start('compress', cb);
-	});
+gulp.task('default', ['webserver', 'stylus'], function() {
+	gulp.watch(stylusFile, ['stylus']);
 });
